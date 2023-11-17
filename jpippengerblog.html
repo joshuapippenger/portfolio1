@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+<link href="/normalize.css" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<style>
+    header{
+        text-align:center;
+        background:url("http://dash.ga.co/assets/jeff-bg.png");
+        background-size:auto
+        
+        color:white;
+    }
+    a{
+        color:white;
+    }
+    h1{
+      font-size: 70px;
+      color:whitesmoke;
+    }
+    img{
+    margin:40px 0px 0px 0px;
+border:7px solid white;
+border-radius:20px;
+    }
+    ul{
+    background: rgba(0,0,0,0.5); 
+      padding:10px;
+    }
+    li{display:inline;
+    padding:0px 10px 0px 10px;
+    }
+    article {
+    max-width:500px;
+    padding:20px
+    margin:0 auto;
+    }
+    @media (max-width: 500px){
+     h1 {
+    font-size: 36px;}
+    li {
+      display:block;
+      padding: 5px;
+    }
+
+    }
+</style>
+</head>
+<body>
+<header>
+<img src="/Users/Joshua/Pictures/ebay/me1.png"
+width="300" 
+height="400">
+<h1>Joshua's Blog</h1>
+<ul>
+    
+    <li><a href="aboutme.html">About Me</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+</ul>
+</header>
+
+<style>
+    h2,h3{
+    background-color:grey;
+    color: black; 
+    font size: 25px;
+    }
+</style>
+<style>
+h3 a{
+    color:black;
+}
+</style>
+<h2>First Post 11-17-23</h2>
+    <p>Today I created my first website using html,css,and js. It's a rough design, I plan to improve upon it. I need to study more on css that is tomorrows goal =D </p>
+    <button>Like</button>
+</section>
+  </article>
+  <article>
+    <h3>Song of the day 11-17-23: <a href="https://www.youtube.com/watch?v=u-08O2DUjRo&amp;ab_channel=BlackSabbath-Topic" target="_blank">Let tomorrows dream become reality to me </a></h3>
+
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Goodnight</h2>
+    <p>gn ill replace this text </p>
+    <button>Like</button>
+    <script>
+   $("button").on("click", function() {
+      alert("Liked!");
+    });
+    </script>
+</body>
